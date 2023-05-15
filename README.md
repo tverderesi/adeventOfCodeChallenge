@@ -40,6 +40,6 @@ The strategy guide provides the opponent's move and recommends your move to win 
 
 The second column of the strategy guide indicates how the round needs to end: X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win. In Part Two, the goal is to determine what shape to choose in order to fulfill the desired outcome indicated in the strategy guide.
 
-Solution Approach
+### Solution Approach
 To solve this problem, I parsed the input and extracted the opponent's moves and the recommended moves from the strategy guide. I then mapped the moves to their corresponding outcomes (win, lose, or draw) and calculated the scores for each round based on the chosen move and the outcome. Finally, I summed up the scores to calculate the total score according to the strategy guide.
 
